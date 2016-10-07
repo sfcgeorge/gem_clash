@@ -1,6 +1,6 @@
 # Potential Bundler Secondary Source Security Issue
 
-See my [other repo](https://github.com/sfcgeorge/eve) for a sample app showing this flaw.
+See my [other repo](https://github.com/sfcgeorge/eve) for sample gems that can be used to show this flaw.
 
 Even if a secondary source is limited to a single gem, Bundler will mistakenly look at all sources for every non limited gem. This could pose a security issue depending on how you use secondary sources and where trust is.
 
