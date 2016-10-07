@@ -1,0 +1,20 @@
+GIT
+  remote: https://github.com/sfcgeorge/eve.git
+  revision: 303e489ebfb5aea7d94303cedd199b88ac89a331
+  specs:
+    eve (1.0.0)
+    rack (9.9.9)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  eve!
+  rack
+
+BUNDLED WITH
+   1.13.2
